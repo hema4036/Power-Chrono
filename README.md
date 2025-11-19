@@ -25,16 +25,16 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 2.16×2 LCD Display
 3.4×4 Matrix Keypad
 4.RTC (Internal of LPC2148)
-5.LED / Relay (Device Control)
+5.LED/Relay (Device Control)
 6.Push Button (External Interrupt)
-7.USB-UART / DB9 Cable
+7.USB-UART/DB9 Cable
 8.Power Supply
 
 # Software Requirements
 1.Embedded C Programming
-2.Keil uVision / any ARM compiler
+2.Keil uVision or any ARM compiler
 3.Flash Magic for flashing code
-4.Proteus (optional) for simulation
+4.Proteus(optional) for simulation
 
 # Project Workflow
 1.Initialize LCD, Keypad, RTC, GPIO, and External Interrupt.
