@@ -38,22 +38,19 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 
 # Project Workflow
 1.Initialize LCD, Keypad, RTC, GPIO, and External Interrupt.Continuously read RTC values.Display current Date & Time on LCD
-![photo_2025-11-20_19-20-31](https://github.com/user-attachments/assets/c4f0fc81-de09-4c8e-afe9-2a918c10e87d)
 2.External Interrupt Raised,When external interrupt is triggered, normal mode stops.
-![photo_2025-11-20_19-25-50](https://github.com/user-attachments/assets/8179781e-db04-4727-9e01-2126cfc6c300)
-3.Edit Menu Displayed
-![photo_2025-11-20_19-26-09](https://github.com/user-attachments/assets/a3f633f9-7dae-4bd4-b58b-336c2f58f9bf)
+3.Edit Menu Displayed like
+1. E.TIME   3.EXIT 
+2. E.ONOFF TIME
 4.Edit RTC Menu (if user selects option 1),User can change Hour, Minute, Second, Day, Date, Month, Year
-![photo_2025-11-20_19-26-26](https://github.com/user-attachments/assets/e5b1196d-fa80-4040-ae9b-2260b6a31426)
+1.H 2.M 3.S 4.Day 
+5.d 6.M 7.Y 8.E 
 5.Edit Device ON/OFF Time (if user selects option 2),User can set ON TIME and OFF TIME.
-![photo_2025-11-20_19-26-47](https://github.com/user-attachments/assets/8baff4cb-ffa4-46dd-9451-5c2df1c97863)
-6.If switch is pressed it displayed on ON/OFF Time,LCD shows the configured ON and OFF times.
-![photo_2025-11-20_19-27-20](https://github.com/user-attachments/assets/8d0ce359-abc4-40cb-9878-40c799c3b6ce)
+1. D.Ontime   3.Exit 
+2. D.Offtime
+6. If user is selected the option 3,control goed back to Main (Display current Date & Time on LCD). 
 7.When ON time is set,Alarm Symbol Displayed,alarm symbol appears like mobile alarm.
-![photo_2025-11-20_19-27-11](https://github.com/user-attachments/assets/b62b0f4b-a747-456b-ac61-7de1ee413351)
 8.Device Turns ON Automatically,When RTC reaches ON time, device status becomes ON.
-![photo_2025-11-20_19-28-53](https://github.com/user-attachments/assets/94d5ea28-25d4-448f-a28a-10fca606c06e)
 9.Device Turns OFF Automatically,When RTC reaches OFF time, device status becomes OFF.
-![photo_2025-11-20_19-28-32](https://github.com/user-attachments/assets/87634f75-cc34-4cfc-8741-fcf558362040)
 
 
