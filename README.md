@@ -20,13 +20,13 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 
 8.Clean modular Embedded C code with drivers for:
 
-  LCD
+    LCD
   
-  Keypad
+    Keypad
   
-  RTC
+    RTC
   
-  Interrupts
+    Interrupts
 
 # Block Diagram
 <img width="961" height="519" alt="Block Diagram" src="https://github.com/user-attachments/assets/62d0e07e-8566-4279-a3ad-a24392f481a5" />
