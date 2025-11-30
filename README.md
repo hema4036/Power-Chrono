@@ -5,16 +5,27 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 
 # Features
 1.Displays real-time clock (RTC): Hour, Minute, Second, Day, Date, Month, Year
+
 2.Allows user to edit RTC values using a keypad
+
 3.Allows user to set Device ON Time and OFF Time
+
 4.Automatically turns ON and OFF the device based on given ON and OFF timings
+
 5.Supports External Interrupt to open an Edit Menu
+
 6.Includes input validation (day, month, hours, leap year, etc.)
+
 7.User-friendly menu system on LCD
+
 8.Clean modular Embedded C code with drivers for:
+
   LCD
+  
   Keypad
+  
   RTC
+  
   Interrupts
 
 # Block Diagram
@@ -22,24 +33,40 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 
 # Hardware Requirements
 1.LPC2148 ARM7 Microcontroller
+
 2.16×2 LCD Display
+
 3.4×4 Matrix Keypad
+
 4.RTC (Internal of LPC2148)
+
 5.LED/Relay (Device Control)
+
 6.Push Button (External Interrupt)
+
 7.USB-UART/DB9 Cable
+
 8.Power Supply
 
 # Software Requirements
 1.Embedded C Programming
+
 2.Keil uVision or any ARM compiler
+
 3.Flash Magic for flashing code
+
 4.Proteus(optional) for simulation
 
 # Project Workflow
-1.Initialize LCD, Keypad, RTC, GPIO, and External Interrupt.Continuously read RTC values.Display current Date & Time on LCD
+1.System Initialization
 
-2.External Interrupt Raised,When external interrupt is triggered, normal mode stops.
+  LCD, Keypad, RTC, GPIO, and Interrupt are initialized.
+
+  RTC time is displayed continuously(RTC Mode).
+
+2.External Interrupt Triggered
+
+  When the user presses the interrupt button, normal mode pauses.
 
 3.Edit Menu Displayed like
        
@@ -59,7 +86,9 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
         
         2. D.Offtime
 
-6.If user is selected the option 3,control goes back to Main (Display current Date & Time on LCD). 
+6.Exit to Main Screen
+       
+  If user selects Exit, display returns to normal RTC mode.
 
 7.When ON time is set,Alarm Symbol Displayed,alarm symbol appears like mobile alarm.
 
