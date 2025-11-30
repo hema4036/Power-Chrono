@@ -42,15 +42,21 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
 2.External Interrupt Raised,When external interrupt is triggered, normal mode stops.
 
 3.Edit Menu Displayed like
+       
         1. E.TIME   3.EXIT 
+        
         2. E.ONOFF TIME
 
 4.Edit RTC Menu (if user selects option 1),User can change Hour, Minute, Second, Day, Date, Month, Year
+        
         1.H 2.M 3.S 4.Day 
+        
         5.d 6.M 7.Y 8.E 
 
 5.Edit Device ON/OFF Time (if user selects option 2),User can set ON TIME and OFF TIME.
+        
         1. D.Ontime   3.Exit 
+        
         2. D.Offtime
 
 6.If user is selected the option 3,control goed back to Main (Display current Date & Time on LCD). 
