@@ -59,7 +59,7 @@ This project is built using the LPC2148 ARM7 microcontroller, a 16×2 LCD, 4×4 
         
         2. D.Offtime
 
-6.If user is selected the option 3,control goed back to Main (Display current Date & Time on LCD). 
+6.If user is selected the option 3,control goes back to Main (Display current Date & Time on LCD). 
 
 7.When ON time is set,Alarm Symbol Displayed,alarm symbol appears like mobile alarm.
 
